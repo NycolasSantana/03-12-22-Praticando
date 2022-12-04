@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --sombra: rgba(0, 0, 0, 0.230);
+    --bordasGeral: 10px;
+}
+body {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.200);
+    background-color: #f8f8f8;
+    font-weight: lighter;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+#fundo {
+    margin: auto;
+    margin-top: 2em;
+    width: 50vw;
+    padding: 30px;
+    border-radius: var(--bordasGeral);
+    box-shadow: 0px 0px 5px var(--sombra);
+    background-color: aquamarine;
+}
+form {
+    margin-top: 2em;
+}
+label {
+    font-weight: 600;
+    color: rgb(63, 63, 63);
+    font-size: 1.8vw;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 1vw;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.230);
+}
+form div {
+    margin-top: 1.5em;
+}
+form abbr {
+    text-decoration: none;
+    color: #e45757;
+}
+#cadastrar {
+    background-color: rgb(177, 92, 235);
+    font-weight: lighter;
+    padding: 1em;
+}
+#cadastrar:hover {
+    cursor: pointer;
+    padding: 1.5em;
+    transition: 0.3s;
+}
+#login a {
+    text-decoration: none;
+    color: #00668f;
+}
+#login a:hover {
+    color: rgb(172, 83, 0);
+    transition: 0.3s;
+}
+#login a::after {
+    color: rgb(83, 0, 138);
+}
